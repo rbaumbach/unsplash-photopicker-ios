@@ -4,7 +4,7 @@ TODO: Update CocoaPods version with custom CocoaPodSpecs
 
 [![CocoaPods Compatible](https://img.shields.io/badge/pod-42.0.0-blue)](https://github.com/rbaumbach/unsplash-photopicker-ios)
 [![Platform](https://img.shields.io/badge/platform-iOS-grey)](https://github.com/rbaumbach/unsplash-photopicker-ios)
-[![License](https://img.shields.io/badge/license-MIT-grey)](https://github.com/unsplash/unsplash-photopicker-ios/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/unsplash/unsplash-photopicker-ios/blob/master/LICENSE)
 
 UnsplashPhotoPicker is an iOS UI component that allows you to quickly search the Unsplash library for free high-quality photos with just a few lines of code.
 
