@@ -1,8 +1,8 @@
-# Unsplash Photo Picker for iOS
+# Unsplash Photo Picker for iOS (With custom updates)
+
+TODO: Update CocoaPods version with custom CocoaPodSpecs
 
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/UnsplashPhotoPicker.svg?style=flat-square)](https://cocoapods.org/pods/UnsplashPhotoPicker)
-[![SPM Compatible](https://img.shields.io/badge/swiftpm-compatible-brightgreen.svg?style=flat-square)](https://github.com/apple/swift-package-manager)
-[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat-square)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/UnsplashPhotoPicker.svg?style=flat-square)](https://github.com/unsplash/unsplash-photopicker-ios)
 [![License](https://img.shields.io/github/license/unsplash/unsplash-photopicker-ios.svg?style=flat-square)](https://github.com/unsplash/unsplash-photopicker-ios)
 
