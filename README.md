@@ -138,9 +138,11 @@ protocol UnsplashPhotoPickerDelegate: class {
 
 `UnsplashPhotoPicker` returns an array of `UnsplashPhoto` objects. See [UnsplashPhoto.swift](UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Models/UnsplashPhoto.swift) for more details.
 
-### Fork differences
+## Fork differences
 
-Rather than havinv the Picker itself dismiss itself for each delegate method call, the code has been updated to allow the "presenting view controller" to handle the dismissal.
+Rather than having the Picker itself dismiss itself for each delegate method call, the code has been updated to allow the "presenting view controller" to handle the dismissal.
+
+A follow up update could be a flag that will allow the user to decide who should have the dismissal control.
 
 ## License
 
