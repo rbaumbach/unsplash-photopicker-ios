@@ -1,14 +1,14 @@
-# Unsplash Photo Picker for iOS (With custom updates)
+# Unsplash Photo Picker for iOS (with custom updates)
 
 TODO: Update CocoaPods version with custom CocoaPodSpecs
 
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/UnsplashPhotoPicker.svg?style=flat-square)](https://cocoapods.org/pods/UnsplashPhotoPicker)
-[![Platform](https://img.shields.io/cocoapods/p/UnsplashPhotoPicker.svg?style=flat-square)](https://github.com/unsplash/unsplash-photopicker-ios)
-[![License](https://img.shields.io/github/license/unsplash/unsplash-photopicker-ios.svg?style=flat-square)](https://github.com/unsplash/unsplash-photopicker-ios)
+[![CocoaPods Compatible](https://img.shields.io/badge/pod-42.0.0-blue)](https://github.com/rbaumbach/unsplash-photopicker-ios)
+[![Platform](https://img.shields.io/badge/platform-iOS-grey)](https://github.com/rbaumbach/unsplash-photopicker-ios)
+[![License](https://img.shields.io/badge/license-MIT-grey)](https://github.com/unsplash/unsplash-photopicker-ios/blob/master/LICENSE)
 
 UnsplashPhotoPicker is an iOS UI component that allows you to quickly search the Unsplash library for free high-quality photos with just a few lines of code.
 
-Android photo picker [here](https://github.com/unsplash/unsplash-photopicker-android).
+Note: The original project [that this project was forked from can be found here.](https://github.com/unsplash/unsplash-photopicker-ios)
 
 ![Unsplash Photo Picker for iOS preview](https://i.imgur.com/BtpxvAP.png "Unsplash Photo Picker for iOS")
 
@@ -137,6 +137,10 @@ protocol UnsplashPhotoPickerDelegate: class {
 ### Using the results
 
 `UnsplashPhotoPicker` returns an array of `UnsplashPhoto` objects. See [UnsplashPhoto.swift](UnsplashPhotoPicker/UnsplashPhotoPicker/Classes/Models/UnsplashPhoto.swift) for more details.
+
+### Fork differences
+
+Rather than havinv the Picker itself dismiss itself for each delegate method call, the code has been updated to allow the "presenting view controller" to handle the dismissal.
 
 ## License
 
