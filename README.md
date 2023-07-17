@@ -1,7 +1,5 @@
 # Unsplash Photo Picker for iOS (with custom updates)
 
-TODO: Update CocoaPods version with custom CocoaPodSpecs
-
 [![CocoaPods Compatible](https://img.shields.io/badge/pod-42.1.0-blue)](https://github.com/rbaumbach/unsplash-photopicker-ios)
 [![Platform](https://img.shields.io/badge/platform-iOS-lightgrey)](https://github.com/rbaumbach/unsplash-photopicker-ios)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/unsplash/unsplash-photopicker-ios/blob/master/LICENSE)
