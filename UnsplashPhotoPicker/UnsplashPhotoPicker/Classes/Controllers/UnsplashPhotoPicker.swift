@@ -36,6 +36,8 @@ public class UnsplashPhotoPicker: UINavigationController {
 
     /// A delegate that is notified of significant events.
     public weak var photoPickerDelegate: UnsplashPhotoPickerDelegate?
+    
+    public var shouldHideCancelButton = false
 
     // MARK: - Lifetime
 
@@ -62,6 +64,8 @@ public class UnsplashPhotoPicker: UINavigationController {
 
     public override func viewDidLoad() {
         super.viewDidLoad()
+        
+        photoPickerViewController.shouldHideCancelButton = shouldHideCancelButton
 
         viewControllers = [photoPickerViewController]
     }

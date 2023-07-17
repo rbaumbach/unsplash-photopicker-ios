@@ -96,6 +96,8 @@ class UnsplashPhotoPickerViewController: UIViewController {
     private var searchText: String?
 
     weak var delegate: UnsplashPhotoPickerViewControllerDelegate?
+    
+    var shouldHideCancelButton = false
 
     // MARK: - Lifetime
 
@@ -159,8 +161,12 @@ class UnsplashPhotoPickerViewController: UIViewController {
 
     private func setupNavigationBar() {
         updateTitle()
-        navigationItem.leftBarButtonItem = cancelBarButtonItem
+        
+        if !shouldHideCancelButton {            
+            navigationItem.leftBarButtonItem = cancelBarButtonItem
 
+        }
+        
         if Configuration.shared.allowsMultipleSelection {
             doneBarButtonItem.isEnabled = false
             navigationItem.rightBarButtonItem = doneBarButtonItem
