@@ -2,7 +2,7 @@
 
 TODO: Update CocoaPods version with custom CocoaPodSpecs
 
-[![CocoaPods Compatible](https://img.shields.io/badge/pod-42.0.0-blue)](https://github.com/rbaumbach/unsplash-photopicker-ios)
+[![CocoaPods Compatible](https://img.shields.io/badge/pod-42.1.0-blue)](https://github.com/rbaumbach/unsplash-photopicker-ios)
 [![Platform](https://img.shields.io/badge/platform-iOS-lightgrey)](https://github.com/rbaumbach/unsplash-photopicker-ios)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/unsplash/unsplash-photopicker-ios/blob/master/LICENSE)
 
@@ -42,45 +42,17 @@ UnsplashPhotoPicker is a view controller. You present it to offer your users to 
 
 ## Installation
 
-### Swift Package Manager
-
-To integrate UnsplashPhotoPicker into your Xcode project using [Swift Package Manager](https://github.com/apple/swift-package-manager), open dependency manager through `File > Swift Packages > Add Package Dependency...`.
-
-and insert repository URL:
-
-`https://github.com/unsplash/unsplash-photopicker-ios.git`
-
-To add dependency in your own package, just specify it in dependencies of your `Package.swift`:
-
-```swift
-.package(
-  name: "UnsplashPhotoPicker",
-  url: "https://github.com/unsplash/unsplash-photopicker-ios.git",
-  .upToNextMajor(from: "1.3.0")
-)
-```
-
-### Carthage
-
-To integrate UnsplashPhotoPicker into your Xcode project using [Carthage](https://github.com/Carthage/Carthage), specify it in your `Cartfile`:
-
-```ogdl
-github "unsplash/unsplash-photopicker-ios" ~> 1.3
-```
-
-Run `carthage update` to build the framework and drag the built `UnsplashPhotoPicker.framework` into your Xcode project.
-
 ### CocoaPods
 
 To integrate UnsplashPhotoPicker into your Xcode project using [CocoaPods](https://cocoapods.org), specify it in your `Podfile`:
 
 ```ruby
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/rbaumbach/PublicCocoapodSpecs'
 platform :ios, '12.1'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'UnsplashPhotoPicker', '~> 1.3'
+    pod 'UnsplashPhotoPicker', '42.1.0'
 end
 ```
 
