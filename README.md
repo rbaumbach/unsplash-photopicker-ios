@@ -15,8 +15,6 @@ Note: The original project [that this project was forked from can be found here.
 - [Description](#description)
 - [Requirements](#requirements)
 - [Installation](#installation)
-  - [Swift Package Manager](#swift-package-manager)
-  - [Carthage](#carthage)
   - [CocoaPods](#cocoapods)
   - [Git submodule](#git-submodule)
 - [Usage](#usage)
@@ -55,6 +53,8 @@ end
 ```
 
 Then run `pod install`.
+
+Note: This CocoaPod is found in my own public CocoaPod specs repo.
 
 ### Git submodule
 
